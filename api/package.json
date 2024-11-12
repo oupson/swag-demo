@@ -1,5 +1,12 @@
 {
   "name": "swag-demo-api",
   "version": "1.0.0",
-  "description": "swag demo API"
+  "description": "swag demo API",
+  "main": "quote/index.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/function": "^4.6.0"
+  }
 }
